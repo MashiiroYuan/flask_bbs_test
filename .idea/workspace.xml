@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60e225d3-a3b1-412b-9815-ab45b7cd81fe" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="package.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Yjo98fh6Bi6P8YSzleprz5FOy2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/cms/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\bbs_demo\static\cms\js" />
+      <recent name="C:\PycharmProjects\bbs_demo\templates\cms" />
+      <recent name="C:\PycharmProjects\bbs_demo\utils" />
+      <recent name="C:\PycharmProjects\bbs_demo\static\common" />
+      <recent name="C:\PycharmProjects\bbs_demo\static\front\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\bbs_demo\static\common" />
+      <recent name="C:\PycharmProjects\bbs_demo\static\front" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flask server.bbs_demo">
+    <configuration name="sjfd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bbs_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sjfd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bbs_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <option name="flaskDebug" value="true" />
+      <module name="bbs_demo" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="bbs_demo" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bbs_demo" type="Python.FlaskServer">
+      <option name="flaskDebug" value="true" />
+      <module name="bbs_demo" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Zihow\Envs\flask\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.bbs_demo" />
+      <item itemvalue="Flask server.Flask (app.py)" />
+      <item itemvalue="Python.sjfd" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.sjfd" />
+        <item itemvalue="Flask server.Flask (app.py)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60e225d3-a3b1-412b-9815-ab45b7cd81fe" name="Default Changelist" comment="" />
+      <created>1583465209845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583465209845</updated>
+      <workItem from="1583465212171" duration="7462000" />
+      <workItem from="1583485153218" duration="1346000" />
+      <workItem from="1583543038995" duration="5457000" />
+      <workItem from="1583566543323" duration="6154000" />
+      <workItem from="1583630089854" duration="12368000" />
+      <workItem from="1583804038364" duration="11082000" />
+      <workItem from="1583890547240" duration="26000" />
+      <workItem from="1583922499885" duration="629000" />
+      <workItem from="1583977153807" duration="2401000" />
+      <workItem from="1584063099573" duration="15104000" />
+      <workItem from="1584101050778" duration="752000" />
+      <workItem from="1584149496423" duration="14253000" />
+      <workItem from="1584235159501" duration="2708000" />
+      <workItem from="1584242980878" duration="13297000" />
+      <workItem from="1584323410855" duration="11217000" />
+      <workItem from="1584408993292" duration="15561000" />
+      <workItem from="1584495609282" duration="13169000" />
+      <workItem from="1584582161607" duration="15580000" />
+      <workItem from="1584666237745" duration="12142000" />
+      <workItem from="1584695392916" duration="3512000" />
+      <workItem from="1584751642552" duration="10428000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="140" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584236442642">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="2867" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.872/2736.19.1280.920@2736.19.1280.920" timestamp="1583568382958" />
+    <state x="140" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.872@0.0.1368.872" timestamp="1584236442642" />
+    <state width="1237" height="438" key="GridCell.Tab.0.bottom" timestamp="1584777553785">
+      <screen x="-1600" y="456" width="1280" height="896" />
+    </state>
+    <state width="1237" height="438" key="GridCell.Tab.0.bottom/-1600.456.1280.896/0.0.1368.872@-1600.456.1280.896" timestamp="1584777553785" />
+    <state width="1301" height="395" key="GridCell.Tab.0.bottom/-1680.456.1344.776/0.0.1368.872@-1680.456.1344.776" timestamp="1584701475730" />
+    <state width="1237" height="213" key="GridCell.Tab.0.bottom/0.0.1368.872/2736.19.1280.860@2736.19.1280.860" timestamp="1583631303675" />
+    <state width="1237" height="233" key="GridCell.Tab.0.bottom/0.0.1368.872/2736.19.1280.920@2736.19.1280.920" timestamp="1583568385835" />
+    <state width="1237" height="467" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1584775629640" />
+    <state width="1237" height="438" key="GridCell.Tab.0.center" timestamp="1584777553785">
+      <screen x="-1600" y="456" width="1280" height="896" />
+    </state>
+    <state width="1237" height="438" key="GridCell.Tab.0.center/-1600.456.1280.896/0.0.1368.872@-1600.456.1280.896" timestamp="1584777553785" />
+    <state width="1301" height="395" key="GridCell.Tab.0.center/-1680.456.1344.776/0.0.1368.872@-1680.456.1344.776" timestamp="1584701475729" />
+    <state width="1237" height="213" key="GridCell.Tab.0.center/0.0.1368.872/2736.19.1280.860@2736.19.1280.860" timestamp="1583631303675" />
+    <state width="1237" height="233" key="GridCell.Tab.0.center/0.0.1368.872/2736.19.1280.920@2736.19.1280.920" timestamp="1583568385835" />
+    <state width="1237" height="467" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1584775629640" />
+    <state width="1237" height="438" key="GridCell.Tab.0.left" timestamp="1584777553784">
+      <screen x="-1600" y="456" width="1280" height="896" />
+    </state>
+    <state width="1237" height="438" key="GridCell.Tab.0.left/-1600.456.1280.896/0.0.1368.872@-1600.456.1280.896" timestamp="1584777553784" />
+    <state width="1301" height="395" key="GridCell.Tab.0.left/-1680.456.1344.776/0.0.1368.872@-1680.456.1344.776" timestamp="1584701475729" />
+    <state width="1237" height="213" key="GridCell.Tab.0.left/0.0.1368.872/2736.19.1280.860@2736.19.1280.860" timestamp="1583631303675" />
+    <state width="1237" height="233" key="GridCell.Tab.0.left/0.0.1368.872/2736.19.1280.920@2736.19.1280.920" timestamp="1583568385834" />
+    <state width="1237" height="467" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1584775629640" />
+    <state width="1237" height="438" key="GridCell.Tab.0.right" timestamp="1584777553785">
+      <screen x="-1600" y="456" width="1280" height="896" />
+    </state>
+    <state width="1237" height="438" key="GridCell.Tab.0.right/-1600.456.1280.896/0.0.1368.872@-1600.456.1280.896" timestamp="1584777553785" />
+    <state width="1301" height="395" key="GridCell.Tab.0.right/-1680.456.1344.776/0.0.1368.872@-1680.456.1344.776" timestamp="1584701475730" />
+    <state width="1237" height="213" key="GridCell.Tab.0.right/0.0.1368.872/2736.19.1280.860@2736.19.1280.860" timestamp="1583631303675" />
+    <state width="1237" height="233" key="GridCell.Tab.0.right/0.0.1368.872/2736.19.1280.920@2736.19.1280.920" timestamp="1583568385835" />
+    <state width="1237" height="467" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1584775629640" />
+    <state width="1237" height="296" key="GridCell.Tab.1.bottom" timestamp="1584761773842">
+      <screen x="-1600" y="456" width="1280" height="896" />
+    </state>
+    <state width="1237" height="296" key="GridCell.Tab.1.bottom/-1600.456.1280.896/0.0.1368.872@-1600.456.1280.896" timestamp="1584761773842" />
+    <state width="1301" height="249" key="GridCell.Tab.1.bottom/-1680.456.1344.776/0.0.1368.872@-1680.456.1344.776" timestamp="1584695352513" />
+    <state width="1326" height="278" key="GridCell.Tab.1.bottom/0.0.1368.872@0.0.1368.872" timestamp="1584618669796" />
+    <state width="1237" height="296" key="GridCell.Tab.1.center" timestamp="1584761773842">
+      <screen x="-1600" y="456" width="1280" height="896" />
+    </state>
+    <state width="1237" height="296" key="GridCell.Tab.1.center/-1600.456.1280.896/0.0.1368.872@-1600.456.1280.896" timestamp="1584761773842" />
+    <state width="1301" height="249" key="GridCell.Tab.1.center/-1680.456.1344.776/0.0.1368.872@-1680.456.1344.776" timestamp="1584695352513" />
+    <state width="1326" height="278" key="GridCell.Tab.1.center/0.0.1368.872@0.0.1368.872" timestamp="1584618669795" />
+    <state width="1237" height="296" key="GridCell.Tab.1.left" timestamp="1584761773842">
+      <screen x="-1600" y="456" width="1280" height="896" />
+    </state>
+    <state width="1237" height="296" key="GridCell.Tab.1.left/-1600.456.1280.896/0.0.1368.872@-1600.456.1280.896" timestamp="1584761773842" />
+    <state width="1301" height="249" key="GridCell.Tab.1.left/-1680.456.1344.776/0.0.1368.872@-1680.456.1344.776" timestamp="1584695352513" />
+    <state width="1326" height="278" key="GridCell.Tab.1.left/0.0.1368.872@0.0.1368.872" timestamp="1584618669795" />
+    <state width="1237" height="296" key="GridCell.Tab.1.right" timestamp="1584761773842">
+      <screen x="-1600" y="456" width="1280" height="896" />
+    </state>
+    <state width="1237" height="296" key="GridCell.Tab.1.right/-1600.456.1280.896/0.0.1368.872@-1600.456.1280.896" timestamp="1584761773842" />
+    <state width="1301" height="249" key="GridCell.Tab.1.right/-1680.456.1344.776/0.0.1368.872@-1680.456.1344.776" timestamp="1584695352513" />
+    <state width="1326" height="278" key="GridCell.Tab.1.right/0.0.1368.872@0.0.1368.872" timestamp="1584618669795" />
+    <state x="-1329" y="456" width="642" height="776" key="find.popup" timestamp="1584415440670">
+      <screen x="-1680" y="456" width="1344" height="776" />
+    </state>
+    <state x="-1329" y="456" width="642" height="776" key="find.popup/-1680.456.1344.776/0.0.1368.872@-1680.456.1344.776" timestamp="1584415440670" />
+    <state x="-1281" y="568" width="672" height="783" key="search.everywhere.popup" timestamp="1584754390897">
+      <screen x="-1600" y="456" width="1280" height="896" />
+    </state>
+    <state x="-1281" y="568" width="672" height="783" key="search.everywhere.popup/-1600.456.1280.896/0.0.1368.872@-1600.456.1280.896" timestamp="1584754390897" />
+    <state x="-1345" y="553" width="672" height="678" key="search.everywhere.popup/-1680.456.1344.776/0.0.1368.872@-1680.456.1344.776" timestamp="1584697380237" />
+    <state x="342" y="109" width="684" height="762" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1584602727272" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/cms/views.py</url>
+          <line>236</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/cms/forms.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/cms/forms.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/front/forms.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/front/views.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bbs_demo$Flask__app_py___1_.coverage" NAME="Flask (app.py) (1) Coverage Results" MODIFIED="1584500464073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/bbs_demo$test.coverage" NAME="test Coverage Results" MODIFIED="1584266700532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bbs_demo$sjfd.coverage" NAME="sjfd Coverage Results" MODIFIED="1584101359896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bbs_demo$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1583631284657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bbs_demo$bbs_demo.coverage" NAME="bbs_demo Coverage Results" MODIFIED="1584775629626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
