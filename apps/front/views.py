@@ -1,12 +1,12 @@
 from flask import Blueprint, views, render_template, request, make_response,session,url_for
 from io import BytesIO
 from utils.captcha import Captcha
-from .forms import SignupForm,SigninForm
+from .forms import SignupForm,SigninForm,AddPostForm
 from utils import restful, safeutils
 from exts import db
 from .models import FrontUser
-
-from ..models import BannerModel
+from .decorators import login_required
+from ..models import BannerModel,BoardModel,PostModel
 import config
 bp = Blueprint("front", __name__, )  # 域名
 
@@ -14,11 +14,37 @@ bp = Blueprint("front", __name__, )  # 域名
 @bp.route('/')
 def index():
     banners = BannerModel.query.order_by(BannerModel.priority.desc()).limit(4)
+    boards = BoardModel.query.all()
     context = {
-        'banners': banners
+        'banners': banners,
+        'boards':boards
     }
+
     return render_template('front/front_index.html',**context)
 
+@bp.route('/apost/',methods=["GET","POST"])
+@login_required
+def apost():
+    if request.method=="GET":
+        boards=BoardModel.query.all()
+
+        return render_template('front/front_apost.html',boards=boards)
+    else:
+        form=AddPostForm(request.form)
+        if form.validate():
+            title=form.title.data
+            content=form.board_id.data
+            board_id=form.board_id.data
+            board=BoardModel.query.get(board_id)
+            if not board:
+                return restful.params_error(message='没有这个板块')
+            post=PostModel(title=title,content=content)
+            post.board=board
+            db.session.add(post)
+            db.session.commit()
+            return restful.success()
+        else:
+            return restful.params_error(message=form.get_error())
 
 class SignupView(views.MethodView):
     def get(self):
@@ -50,7 +76,7 @@ class SignInView(views.MethodView):
     def get(self):
         return_to = request.referrer
         # safeutils防止返回值被劫持
-        if return_to and return_to != request.url and return_to!=url_for('front.singup')and safeutils.is_safe_url(return_to):
+        if return_to and return_to != request.url and return_to!=url_for('front.signup')and safeutils.is_safe_url(return_to):
 
             return render_template('front/front_signin.html', return_to=return_to)
         else:

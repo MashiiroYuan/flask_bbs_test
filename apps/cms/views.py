@@ -2,14 +2,15 @@ import string
 import random
 
 from flask import Blueprint, views, render_template, request, session, redirect, url_for, g, jsonify
-from .forms import LoginForm, ResetpwdForm, ResetEmailForm, AddBannerForm, UpdateBannnerForm
+from .forms import LoginForm, ResetpwdForm, ResetEmailForm, AddBannerForm, UpdateBannnerForm, AddBoardForm, \
+    UpdateBoardForm
 from .models import CmsUser, CmsPermission
 from .decorators import login_required, permission_required
 import config
 from exts import db, mail
 from utils import restful, zlcache
 from flask_mail import Message
-from apps.models import BannerModel
+from apps.models import BannerModel, BoardModel
 
 # 注册时 url_prefix 要加/
 bp = Blueprint("cms", __name__, url_prefix='/cms')  # 域名
@@ -18,7 +19,6 @@ bp = Blueprint("cms", __name__, url_prefix='/cms')  # 域名
 @bp.route('/')
 @login_required
 def index():
-
     return render_template('cms/cms_index.html')
 
 
@@ -142,11 +142,62 @@ def posts():
 @login_required
 @permission_required(CmsPermission.BORARDER)
 def boards():
-    return render_template('cms/cms_boards.html')
+    board_models = BoardModel.query.all()
+    context = {
+        'boards': board_models
+    }
+    return render_template('cms/cms_boards.html', **context)
 
-@bp.route('')
+
+@bp.route('/aboard/', methods=["POST"])
+@login_required
+@permission_required(CmsPermission.BORARDER)
+def aboard():
+    form = AddBoardForm(request.form)
+    if form.validate():
+        name = form.name.data
+        board = BoardModel(name=name)
+        db.session.add(board)
+        db.session.commit()
+        return restful.success()
+    else:
+        return restful.params_error(message=form.get_error())
 
 
+# 修改板块
+@bp.route('/uboard/', methods=["POST"])
+@login_required
+@permission_required(CmsPermission.BORARDER)
+def uboard():
+    form = UpdateBoardForm(request.form)
+    if form.validate():
+        name = form.name.data
+        board_id = form.board_id.data
+        board = BoardModel.query.get(board_id)
+        if board:
+            board.name = name
+            db.session.commit()
+            return restful.success()
+        else:
+            return restful.params_error(message='五次模块')
+    else:
+        return restful.params_error(form.get_error())
+
+
+# 删除板块
+@bp.route('/dboard/', methods=["POST"])
+@login_required
+@permission_required(CmsPermission.BORARDER)
+def dboard():
+    board_id = request.form.get()
+    if not board_id:
+        return restful.params_error(message='请传入id')
+    board = BoardModel.query.get(board_id)
+    if not board:
+        return restful.params_error(message='没有这个模块')
+    db.session.delete(board)
+    db.session.commit()
+    return restful.success()
 
 
 @bp.route('/frusers/')
