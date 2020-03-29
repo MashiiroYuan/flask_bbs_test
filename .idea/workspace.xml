@@ -271,10 +271,11 @@
     </state>
     <state x="2867" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.872/2736.19.1280.920@2736.19.1280.920" timestamp="1583568382958" />
     <state x="140" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.872@0.0.1368.872" timestamp="1584236442642" />
-    <state x="-1356" y="502" key="CommitChangelistDialog2" timestamp="1584883388462">
-      <screen x="-1600" y="456" width="1280" height="896" />
+    <state x="261" y="23" key="CommitChangelistDialog2" timestamp="1585448955846">
+      <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="-1356" y="502" key="CommitChangelistDialog2/-1600.456.1280.896/0.0.1368.872@-1600.456.1280.896" timestamp="1584883388462" />
+    <state x="261" y="23" key="CommitChangelistDialog2/0.0.1368.872@0.0.1368.872" timestamp="1585448955846" />
     <state width="1237" height="256" key="GridCell.Tab.0.bottom" timestamp="1584949816211">
       <screen x="-1600" y="456" width="1280" height="896" />
     </state>
@@ -339,6 +340,10 @@
       <screen x="-1600" y="456" width="1280" height="896" />
     </state>
     <state x="-1367" y="649" key="Vcs.Push.Dialog.v2/-1600.456.1280.896/0.0.1368.872@-1600.456.1280.896" timestamp="1584883401037" />
+    <state x="480" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585449009703">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="480" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1368.872@0.0.1368.872" timestamp="1585449009703" />
     <state x="357" y="0" width="775" height="872" key="find.popup" timestamp="1585019744487">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
