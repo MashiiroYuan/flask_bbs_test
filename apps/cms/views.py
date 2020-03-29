@@ -10,7 +10,7 @@ import config
 from exts import db, mail
 from utils import restful, zlcache
 from flask_mail import Message
-from apps.models import BannerModel, BoardModel
+from apps.models import BannerModel, BoardModel,PostModel,HighlightPostModel
 
 # 注册时 url_prefix 要加/
 bp = Blueprint("cms", __name__, url_prefix='/cms')  # 域名
@@ -135,8 +135,8 @@ def comments():
 @login_required
 @permission_required(CmsPermission.POSTER)
 def posts():
-    return render_template('cms/cms_posts.html')
-
+    post_list = PostModel.query.all()
+    return render_template('cms/cms_posts.html',posts=post_list)
 
 @bp.route('/boards/')
 @login_required
@@ -199,6 +199,41 @@ def dboard():
     db.session.commit()
     return restful.success()
 
+
+#加精
+@bp.route('/hpost/',methods=["POST"])
+@login_required
+@permission_required(CmsPermission.POSTER)
+def hpost():
+    post_id=request.form.get('post_id')
+    if not post_id:
+        return restful.params_error('出入id')
+    post=PostModel.query.get(post_id)
+    if not post:
+        return restful.params_error('无此帖子')
+    hightlight=HighlightPostModel()
+    hightlight.post=post
+    db.session.add(hightlight)
+    db.session.commit()
+    return restful.success()
+
+
+#取消精品
+@bp.route('/uhpost/',methods=["POST"])
+@login_required
+@permission_required(CmsPermission.POSTER)
+def uhpost():
+    post_id=request.form.get('post_id')
+    if not post_id:
+        return restful.params_error('出入id')
+    post=PostModel.query.get(post_id)
+    if not post:
+        return restful.params_error('无此帖子')
+    hightlight=HighlightPostModel.query.filter_by(post_id=post_id)
+
+    db.session.delete(hightlight)
+    db.session.commit()
+    return restful.success()
 
 @bp.route('/frusers/')
 @login_required

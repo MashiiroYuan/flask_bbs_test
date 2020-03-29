@@ -4,7 +4,7 @@ from app import app
 from exts import db
 from apps.cms import models as cms_models
 from apps.front import models as front_models
-from apps.models import BannerModel,BoardModel
+from apps.models import BannerModel,BoardModel,PostModel
 
 FrontUser=front_models.FrontUser
 
@@ -41,6 +41,20 @@ def create_role():
 
     # db.session.add_all([visitor, operator, admin, developer])
     # db.session.commit()
+
+@manager.command
+def create_test_post():
+    for x in range(1,200):
+        title="标题%s"%x
+        content='内容%s'%x
+        board=BoardModel.query.first()
+        author=FrontUser.query.first()
+        post=PostModel(title=title,content=content)
+        post.board=board
+        post.author=author
+        db.session.add(post)
+        db.session.commit()
+    print('ceshi success')
 
 @manager.option('-e','--email',dest='email')
 @manager.option('-n','--name',dest='name')
